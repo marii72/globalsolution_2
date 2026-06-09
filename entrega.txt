@@ -1,0 +1,32 @@
+GLOBAL SOLUTION 2026 — 1 SEMESTRE
+CIENCIA DA COMPUTACAO
+TEMA: SOLUCOES EM ENERGIAS RENOVAVEIS E SUSTENTAVEIS
+
+================================================================
+INTEGRANTES
+================================================================
+
+Gabriel Jurado Nogueira          RM: 571236
+Vinicius Torralles Ferreira Conduta  RM: 570911
+Mariana Carminato                RM: 573258
+
+================================================================
+LINKS DE ENTREGA
+================================================================
+
+Repositorio GitHub:
+[INSERIR LINK DO REPOSITORIO AQUI]
+
+Video YouTube (nao listado):
+[INSERIR LINK DO VIDEO AQUI]
+
+================================================================
+OBSERVACOES
+================================================================
+
+- O repositorio contem o codigo-fonte completo (missao_espacial.py),
+  o README com instrucoes de execucao e o dashboard grafico gerado
+  pelo sistema.
+
+- O video demonstra a execucao do sistema no terminal e o dashboard
+  gerado ao final da simulacao.
