@@ -12,7 +12,10 @@
 | Gabriel Jurado Nogueira | 571236 |
 | Vinicius Torralles Ferreira Conduta | 570911 |
 | Mariana Carminato | 573258 |
-
+ ##
+ LINKS? https://github.com/marii72/globalsolution_2/blob/main/README.md
+https://youtu.be/zip88Iyn5ec
+https://globalsolution2-hqqwms2kquf9camwd8bjfy.streamlit.app/
 ---
 
 ## Descricao do Projeto
