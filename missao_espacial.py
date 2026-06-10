@@ -7,7 +7,7 @@
 #   Vinicius Torralles F. Conduta RM: 570911
 #   Mariana Carminato             RM: 573258
 # =============================================================================
-
+import streamlit as st
 import random
 import time
 import datetime
@@ -407,8 +407,49 @@ def executar_monitoramento(n_ciclos=20, intervalo_segundos=0.4):
     print("=" * 60)
 
     gerar_dashboard(historico)
+    
     print("\nMonitoramento concluido.")
 
 
-if __name__ == "__main__":
-    executar_monitoramento(n_ciclos=20, intervalo_segundos=0.4)
+st.set_page_config(
+    page_title="Missão Espacial Experimental",
+    page_icon="🚀",
+    layout="wide"
+)
+
+st.title("🚀 Missão Espacial Experimental")
+st.subheader("Sistema de Monitoramento")
+
+simulador = SimuladorMissao()
+dados = simulador.coletar()
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric("🌡️ Temperatura", f"{dados['temperatura']} °C")
+
+with col2:
+    st.metric("🔋 Energia", f"{dados['energia']} %")
+
+with col3:
+    st.metric("📡 Sinal", f"{dados['sinal']} %")
+
+st.divider()
+
+st.subheader("Status dos Módulos")
+
+for modulo, status in dados["modulos"].items():
+    if status == "OPERACIONAL":
+        st.success(f"{modulo}: {status}")
+    elif status == "DEGRADADO":
+        st.warning(f"{modulo}: {status}")
+    else:
+        st.error(f"{modulo}: {status}")
+
+st.divider()
+
+st.subheader("Dados da Missão")
+
+st.write(f"**Pressão:** {dados['pressao']} kPa")
+st.write(f"**Velocidade:** {dados['velocidade']} km/s")
+st.write(f"**Horário:** {dados['timestamp']}")
