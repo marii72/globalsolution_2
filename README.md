@@ -1,4 +1,4 @@
-# Sistema de Monitoramento de Missao Espacial Experimental
+# Sistema de Monitoramento de Missao Espacial Experimental .𖥔 ݁ ˖ ᯓ★
 
 **Global Solution 2026 — Ciencia da Computacao**  
 **Tema: Solucoes em Energias Renovaveis e Sustentaveis**
@@ -7,18 +7,21 @@
 
 ## Integrantes
 
-| Nome | RM |
+| Nome | RM | 
 |---|---|
 | Gabriel Jurado Nogueira | 571236 |
 | Vinicius Torralles Ferreira Conduta | 570911 |
 | Mariana Carminato | 573258 |
  ##
- LINKS? https://github.com/marii72/globalsolution_2/blob/main/README.md
-https://youtu.be/zip88Iyn5ec
-https://globalsolution2-hqqwms2kquf9camwd8bjfy.streamlit.app/
+ 
+##LINKS ᯓ★
+
+https://youtu.be/zip88Iyn5ec (video no youtube)
+
+https://globalsolution2-hqqwms2kquf9camwd8bjfy.streamlit.app/(Streamlit)
 ---
 
-## Descricao do Projeto
+## Descricao do Projeto ᯓ★
 
 Sistema inteligente de monitoramento para controle basico de uma missao espacial experimental. A solucao recebe, interpreta e exibe dados simulados das condicoes operacionais da missao, incluindo temperatura, comunicacao, energia e status dos modulos de operacao.
 
@@ -26,7 +29,7 @@ O sistema aplica conceitos de programacao, algoritmos e pensamento computacional
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do Projeto ᯓ★
 
 ```
 missao_espacial.py       # Codigo principal do sistema
@@ -37,7 +40,7 @@ entrega.txt              # Arquivo de entrega com integrantes e links
 
 ---
 
-## Funcionalidades
+## Funcionalidades ᯓ★
 
 ### Monitoramento de Dados Simulados
 - Temperatura interna dos modulos (graus Celsius)
@@ -47,7 +50,7 @@ entrega.txt              # Arquivo de entrega com integrantes e links
 - Velocidade orbital (km/s)
 - Status individual de 5 modulos: Propulsao, Comunicacao, Energia Solar, Suporte de Vida e Navegacao
 
-### Geracao de Alertas Automaticos
+### Geracao de Alertas Automaticos ᯓ★
 O sistema possui dois niveis de alerta:
 
 | Nivel | Temperatura | Energia | Sinal |
@@ -57,14 +60,14 @@ O sistema possui dois niveis de alerta:
 
 Para modulos, os status possiveis sao OPERACIONAL, DEGRADADO e FALHA, cada um com alerta correspondente.
 
-### Tomada de Decisao Automatizada
+### Tomada de Decisao Automatizada ᯓ★
 Diante de condicoes criticas, o sistema aciona respostas automaticas:
 - Energia critica: reorientacao automatica dos paineis solares
 - Temperatura critica: ativacao da ventilacao forcada
 - Sinal critico: reconexao na frequencia de backup
 - Modulo em falha: ativacao de redundancia e modo de contingencia
 
-### Visualizacao dos Dados
+### Visualizacao dos Dados ᯓ★
 - Saida formatada no terminal a cada ciclo de monitoramento
 - Dashboard grafico gerado ao final da execucao com:
   - Grafico de temperatura ao longo dos ciclos
@@ -75,7 +78,7 @@ Diante de condicoes criticas, o sistema aciona respostas automaticas:
 
 ---
 
-## Como Executar
+## Como Executar ᯓ★
 
 ### Requisitos
 ```
